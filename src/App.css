@@ -57,3 +57,10 @@ footer {
   height:100px; 
   color: rgb(214, 214, 214);
 }
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-toggler {
+  background-color: white !important;
+}
