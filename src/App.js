@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import Navigation from './components/shared/navigation.js'
 import Footer from './components/shared/footer.js'
-import { Container } from 'reactstrap';
 
 class App extends React.Component {
   render() {
@@ -27,7 +26,7 @@ class App extends React.Component {
           </header>
           <Footer />
       </div>
-    );  
+    );
   }
 }
 

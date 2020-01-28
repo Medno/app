@@ -3,7 +3,6 @@ import {
 	Collapse,
 	Navbar,
 	NavbarToggler,
-	NavbarBrand,
 	Nav,
 	NavItem,
 	NavLink,
@@ -22,11 +21,10 @@ const Navigation = (props) => {
 			<NavbarText>Philippe Chadenier</NavbarText>
 			<NavbarToggler onClick={toggle} />
 			<Collapse isOpen={isOpen} navbar>
-				<Nav className="ml-auto" navbar >
+				<Nav className="ml-auto navbar-inverse" navbar >
 					<NavItem>
 						<NavLink href="/">Home</NavLink>
 					</NavItem>
-
 					<NavItem>
 						<NavLink href="/portfolio/">Portfolio</NavLink>
 					</NavItem>
