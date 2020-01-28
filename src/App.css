@@ -40,9 +40,9 @@
 /* Navbar style */
 
 .navbar {
-  min-height: 80px;
+  min-height: 70px;
   background: #1C265F;
-  color: rgb(214, 214, 214);
+  color: rgb(214, 214, 214) !important;
 }
 
 .navbar-toggler-icon {
@@ -52,9 +52,13 @@
   background: #fff !important; /* Color of the collapse */
 }
 .navbar-brand {
-  padding-top: 26.5px;
-  padding-bottom: 26.5px;
-  line-height: 27px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  line-height: 20px;
+}
+
+header a {
+  color: rgb(214, 214, 214) !important;
 
 }
 
@@ -64,12 +68,20 @@
   padding: 9px 10px !important;
 }
 @media (min-width: 768px) {
-  .navbar-nav > li > a {
+  .navbar-nav > a {
     /* (80px - line-height of 27px) / 2 = 26.5px */
-    padding-top: 26.5px;
-    padding-bottom: 26.5px;
-    line-height: 27px;
+    padding: 0px 12px;
+    /* line-height: 20px; */
+    /* min-height: 50px; */
   }
+}
+
+.navbar-nav > a:hover {
+  text-decoration: none;
+}
+
+.navbar > a:hover {
+  text-decoration: none;
 }
 
 header {
