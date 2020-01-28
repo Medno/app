@@ -20,6 +20,7 @@ class Home extends React.Component {
 					looking for an end of study internship as a Game Developer.</h3>
 					<br />
 					<h6>Feel free to have a look at my <Link to='/portfolio'>portfolio</Link>. You can find a large part of my projects on GitHub.</h6>
+					<br />
 					Do you have any questions ? <a href="mailto: medno.pc@gmail.com">Contact me</a>.
 				</div>
 		</Container>
