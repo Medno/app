@@ -2,7 +2,7 @@ import React from 'react';
 import {
 	Row, Col
 } from 'reactstrap';
-import linkedin from '../../linkedin-3-64.png';
+import linkedin from '../../imgs/linkedin-3-64.png';
 
 const Footer = (props) => {
 	return (
