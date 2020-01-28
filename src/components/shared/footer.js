@@ -1,7 +1,7 @@
 import React from 'react';
-import { Col } from 'reactstrap';
-import linkedin from '../../imgs/linkedin-3-64.png';
-import github from '../../imgs/GitHub-Mark-Light-120px-plus.png';
+import { Col } from 'react-bootstrap';
+import linkedin from '../../static/linkedin-3-64.png';
+import github from '../../static/GitHub-Mark-Light-120px-plus.png';
 
 const Footer = (props) => {
 	const dimension = 30
