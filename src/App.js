@@ -10,7 +10,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <BrowserRouter>
+        <BrowserRouter basename="/app" >
           <Header />
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
