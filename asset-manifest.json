@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.65ac6ec7.chunk.css",
+    "main.js": "/static/js/main.cced9817.chunk.js",
+    "main.js.map": "/static/js/main.cced9817.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b1d5aced.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b1d5aced.js.map",
+    "static/css/2.2277b44b.chunk.css": "/static/css/2.2277b44b.chunk.css",
+    "static/js/2.7a1e4d4f.chunk.js": "/static/js/2.7a1e4d4f.chunk.js",
+    "static/js/2.7a1e4d4f.chunk.js.map": "/static/js/2.7a1e4d4f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.aa0b8f235bc13090b7ebe8bb6c5f8e42.js": "/precache-manifest.aa0b8f235bc13090b7ebe8bb6c5f8e42.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.2277b44b.chunk.css.map": "/static/css/2.2277b44b.chunk.css.map",
+    "static/css/main.65ac6ec7.chunk.css.map": "/static/css/main.65ac6ec7.chunk.css.map",
+    "static/js/2.7a1e4d4f.chunk.js.LICENSE": "/static/js/2.7a1e4d4f.chunk.js.LICENSE",
+    "static/media/coop_cubes.png": "/static/media/coop_cubes.92a68db7.png",
+    "static/media/flappy_bird.png": "/static/media/flappy_bird.de2e3cb3.png",
+    "static/media/golf_3d.png": "/static/media/golf_3d.c8772287.png",
+    "static/media/pchadeni.JPG": "/static/media/pchadeni.a36629b8.JPG",
+    "static/media/pong.png": "/static/media/pong.f4e7b066.png",
+    "static/media/sonic.png": "/static/media/sonic.69d9645d.png",
+    "static/media/tower_defense.png": "/static/media/tower_defense.0399ee11.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1d5aced.js",
+    "static/css/2.2277b44b.chunk.css",
+    "static/js/2.7a1e4d4f.chunk.js",
+    "static/css/main.65ac6ec7.chunk.css",
+    "static/js/main.cced9817.chunk.js"
+  ]
+}
