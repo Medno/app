@@ -5,38 +5,32 @@ import { Image } from 'react-bootstrap';
 import 'react-medium-image-zoom/dist/styles.css'
 
 const MappedComponent = props => {
+    const transition = props.isActive ? 0 : 300;
     const imgSize = 500;
-    const activeIndex = props.activeIndex
-    const length = props.length
-    const handler = props.activeIndexHandler
+
     const handleKeyDown = useCallback(e => {
-        if (activeIndex === null) {
-        return
-        }
-
-        if (e.key === 'ArrowLeft' || e.keyCode === 37) {
-        handler(Math.max(activeIndex - 1, 0))
-        } else if (e.key === 'ArrowRight' || e.keyCode === 39) {
-        handler(Math.min(activeIndex + 1, length - 1))
-        }
-    },
-    [activeIndex, length]
-    )
-
-    useEvent('keydown', handleKeyDown, document)
-
+        if (props.activeIndex === null)
+            return
+        if (e.key === 'ArrowLeft' || e.keyCode === 37)
+            props.activeIndexHandler(Math.max(props.activeIndex - 1, 0))
+        else if (e.key === 'ArrowRight' || e.keyCode === 39)
+            props.activeIndexHandler(Math.min(props.activeIndex + 1, props.length - 1))
+    }, [props])
     const ZoomChangeHandler = useCallback( isZoomed => {
         if (isZoomed) {
             props.activeIndexHandler(props.index)
             return
         }
         props.activeIndexHandler(null)
-    }, [props.index]);
+    }, [props]);
+
+    useEvent('keydown', handleKeyDown, document)
+
     return (
         <ControlledZoom
             isZoomed={props.activeIndex === props.index}
             onZoomChange={ZoomChangeHandler}
-            transitionDuration={0}
+            transitionDuration={transition}
             wrapStyle={{ width: '100%' }}
         >
             <Image key={props.index} src={props.img} alt="" width={imgSize} height={imgSize} className="img-thumbnail" rounded/>
@@ -50,9 +44,14 @@ class ListImages extends React.Component {
         super(props);
         this.state = {
           activeIndex: null,
+          isActive: false,
         };
     }
-    setActiveIndex= (index) => {
+    setActiveIndex = (index) => {
+        if (index === null && this.state.isActive === true)
+            this.setState({isActive: false})
+        else if (this.state.activeIndex && index != null)
+            this.setState({isActive: true})
         this.setState({activeIndex: index})
     }
 
@@ -84,6 +83,7 @@ class ListImages extends React.Component {
                             activeIndex={this.state.activeIndex}
                             length={this.props.images.length}
                             activeIndexHandler={this.setActiveIndex}
+                            isActive={this.state.isActive}
                             />
                         </li>
                     )
