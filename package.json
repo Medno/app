@@ -1,8 +1,8 @@
 {
-  "name": "medno_website",
+  "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Medno.github.io/",
+  "homepage": "https://Medno.github.io/app",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
