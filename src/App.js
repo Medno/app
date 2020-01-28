@@ -1,30 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navigation from './components/shared/navigation.js'
 import Footer from './components/shared/footer.js'
+import { BrowserRouter, Route } from "react-router-dom";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <BrowserRouter>
           <header className="text-left">
-          <Navigation />
-
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-              Edit <code>src/App.js</code> and save to reload.
-            </p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
+            <Navigation />
           </header>
           <Footer />
+        </BrowserRouter>
       </div>
     );
   }

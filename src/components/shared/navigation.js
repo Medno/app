@@ -1,38 +1,18 @@
-import React, { useState } from 'react';
-import {
-	Collapse,
-	Navbar,
-	NavbarToggler,
-	Nav,
-	NavItem,
-	NavLink,
-	NavbarText
-} from 'reactstrap';
+import React from 'react';
+import { Nav, Navbar } from 'react-bootstrap';
 
 const Navigation = (props) => {
-	const [isOpen, setIsOpen] = useState(false);
-
-	const toggle = () => setIsOpen(!isOpen);
-
 	return (
 	<div>
-		<Navbar expand="md">
-			{/* <NavbarBrand href="/">Home</NavbarBrand> */}
-			<NavbarText>Philippe Chadenier</NavbarText>
-			<NavbarToggler onClick={toggle} />
-			<Collapse isOpen={isOpen} navbar>
+		<Navbar expand="md" className="navbar-dark">
+			<Navbar.Brand href="/">Philippe Chadenier</Navbar.Brand>
+			<Navbar.Toggle aria-controls="basic-navbar-nav" />
+  			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav className="ml-auto navbar-inverse" navbar >
-					<NavItem>
-						<NavLink href="/">Home</NavLink>
-					</NavItem>
-					<NavItem>
-						<NavLink href="/portfolio/">Portfolio</NavLink>
-					</NavItem>
-					<NavItem>
-						<NavLink href="/about">About</NavLink>
-					</NavItem>
+					<Nav.Link href="/">Home</Nav.Link>
+					<Nav.Link href="/portfolio">Portfolio</Nav.Link>
 				</Nav>
-			</Collapse>
+			</Navbar.Collapse>
 		</Navbar>
 	</div>
 	);
