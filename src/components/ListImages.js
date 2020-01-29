@@ -6,7 +6,6 @@ import 'react-medium-image-zoom/dist/styles.css'
 
 const MappedComponent = props => {
     const transition = props.isActive ? 0 : 300;
-    const imgSize = 500;
 
     const handleKeyDown = useCallback(e => {
         if (props.activeIndex === null)
@@ -33,7 +32,7 @@ const MappedComponent = props => {
             transitionDuration={transition}
             wrapStyle={{ width: '100%' }}
         >
-            <Image key={props.index} src={props.img} alt="" width={imgSize} height={imgSize} className="img-thumbnail" rounded/>
+            <Image key={props.index} src={props.img} alt="" className="img-thumbnail" rounded/>
         </ControlledZoom>
     );
 }

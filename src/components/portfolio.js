@@ -8,7 +8,25 @@ class Portfolio extends React.Component {
 	}
 	
     render() {
-        const projects = ["flappy_bird", "pong", "coop_cubes", "tower_defense", "sonic", "golf_3d"].map(title => require(`../static/projects/${title}.png`))
+        const projects = [
+            "rush_hover.jpg",
+            "rush_weapon.jpg",
+            "rush_ui.jpg",
+            "rush_battle.jpg",
+            "rush_ice_spell.jpg",
+            "rush_boss.jpg",
+            "rush_boss_explosion.jpg",
+            "splinter_begin_demo.png",
+            "splinter_demo.png",
+            "splinter_hint.png",
+            "tank_shoot.png",
+            "golf_3d.png",
+            "sonic.png",
+            "tower_defense.png",
+            "coop_cubes.png",
+            "pong.png",
+            "flappy_bird.png",
+        ].map(title => require(`../static/projects/${title}`))
 
         const in_the_shadows_links = [
             "https://github.com/Medno/In-The-Shadows/raw/media/in_the_shadows_demo.gif",
@@ -24,6 +42,9 @@ class Portfolio extends React.Component {
         const avm_links = [
             "https://github.com/Medno/AbstractVM/raw/media/avm_demo.gif"
         ]
+        const shell_gradius_links = [
+            "https://github.com/Medno/shell_gradius/raw/media/shell_gradius_demo.gif"
+        ]
         return (
             <Container>
                 <Tabs defaultActiveKey="Unity">
@@ -33,6 +54,7 @@ class Portfolio extends React.Component {
                     </Tab>
                     <Tab eventKey="C++" title="C++">
                         <ListImages images={scop_links} title="Scop" />
+                        <ListImages images={shell_gradius_links} title="Shell Gradius" />
                         <ListImages images={avm_links} title="AbstractVM" />
                     </Tab>
                 </Tabs>
