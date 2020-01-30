@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b191cf8b24b6f2e5c8450f8f2579250c",
+    "revision": "00b758567e697e914f6612729c2e6748",
     "url": "/app/index.html"
   },
   {
-    "revision": "4bd768b8e2b10ec55f0f",
-    "url": "/app/static/css/2.51591f8a.chunk.css"
+    "revision": "97658dc590ccc0eb9180",
+    "url": "/app/static/css/2.2277b44b.chunk.css"
   },
   {
-    "revision": "7ab4383f2b30d9ab9021",
-    "url": "/app/static/css/main.be1ec52e.chunk.css"
+    "revision": "d6ad595104b9437a7ba2",
+    "url": "/app/static/css/main.1a56744e.chunk.css"
   },
   {
-    "revision": "4bd768b8e2b10ec55f0f",
-    "url": "/app/static/js/2.ac32d84f.chunk.js"
+    "revision": "97658dc590ccc0eb9180",
+    "url": "/app/static/js/2.f09d257c.chunk.js"
   },
   {
     "revision": "68aed49bcdcbc067487a3d461801ff7e",
-    "url": "/app/static/js/2.ac32d84f.chunk.js.LICENSE"
+    "url": "/app/static/js/2.f09d257c.chunk.js.LICENSE"
   },
   {
-    "revision": "7ab4383f2b30d9ab9021",
-    "url": "/app/static/js/main.40b84373.chunk.js"
+    "revision": "d6ad595104b9437a7ba2",
+    "url": "/app/static/js/main.16acec79.chunk.js"
   },
   {
-    "revision": "79a8bcd269d7a4604983",
-    "url": "/app/static/js/runtime-main.faa214fc.js"
+    "revision": "3850e247d4ac686b7c2f",
+    "url": "/app/static/js/runtime-main.9b05ec13.js"
   },
   {
     "revision": "92a68db7158bbff59319e9f90c46016c",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c8772287b57593800fb18ac5197b3c63",
     "url": "/app/static/media/golf_3d.c8772287.png"
+  },
+  {
+    "revision": "20efe8b4ef6581daa12f8afd3b513e83",
+    "url": "/app/static/media/hotline_miami.20efe8b4.png"
   },
   {
     "revision": "a36629b8bd6bfd17d500f523798bd16f",

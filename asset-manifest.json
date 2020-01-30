@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/app/static/css/main.be1ec52e.chunk.css",
-    "main.js": "/app/static/js/main.40b84373.chunk.js",
-    "main.js.map": "/app/static/js/main.40b84373.chunk.js.map",
-    "runtime-main.js": "/app/static/js/runtime-main.faa214fc.js",
-    "runtime-main.js.map": "/app/static/js/runtime-main.faa214fc.js.map",
-    "static/css/2.51591f8a.chunk.css": "/app/static/css/2.51591f8a.chunk.css",
-    "static/js/2.ac32d84f.chunk.js": "/app/static/js/2.ac32d84f.chunk.js",
-    "static/js/2.ac32d84f.chunk.js.map": "/app/static/js/2.ac32d84f.chunk.js.map",
+    "main.css": "/app/static/css/main.1a56744e.chunk.css",
+    "main.js": "/app/static/js/main.16acec79.chunk.js",
+    "main.js.map": "/app/static/js/main.16acec79.chunk.js.map",
+    "runtime-main.js": "/app/static/js/runtime-main.9b05ec13.js",
+    "runtime-main.js.map": "/app/static/js/runtime-main.9b05ec13.js.map",
+    "static/css/2.2277b44b.chunk.css": "/app/static/css/2.2277b44b.chunk.css",
+    "static/js/2.f09d257c.chunk.js": "/app/static/js/2.f09d257c.chunk.js",
+    "static/js/2.f09d257c.chunk.js.map": "/app/static/js/2.f09d257c.chunk.js.map",
     "index.html": "/app/index.html",
-    "precache-manifest.1dd7c204931cbe8d85e76c5ed4c066eb.js": "/app/precache-manifest.1dd7c204931cbe8d85e76c5ed4c066eb.js",
+    "precache-manifest.7898ce45a22f8362049348181291a476.js": "/app/precache-manifest.7898ce45a22f8362049348181291a476.js",
     "service-worker.js": "/app/service-worker.js",
-    "static/css/2.51591f8a.chunk.css.map": "/app/static/css/2.51591f8a.chunk.css.map",
-    "static/css/main.be1ec52e.chunk.css.map": "/app/static/css/main.be1ec52e.chunk.css.map",
-    "static/js/2.ac32d84f.chunk.js.LICENSE": "/app/static/js/2.ac32d84f.chunk.js.LICENSE",
+    "static/css/2.2277b44b.chunk.css.map": "/app/static/css/2.2277b44b.chunk.css.map",
+    "static/css/main.1a56744e.chunk.css.map": "/app/static/css/main.1a56744e.chunk.css.map",
+    "static/js/2.f09d257c.chunk.js.LICENSE": "/app/static/js/2.f09d257c.chunk.js.LICENSE",
     "static/media/coop_cubes.png": "/app/static/media/coop_cubes.92a68db7.png",
     "static/media/flappy_bird.png": "/app/static/media/flappy_bird.de2e3cb3.png",
     "static/media/golf_3d.png": "/app/static/media/golf_3d.c8772287.png",
+    "static/media/hotline_miami.png": "/app/static/media/hotline_miami.20efe8b4.png",
     "static/media/pchadeni.JPG": "/app/static/media/pchadeni.a36629b8.JPG",
     "static/media/pong.png": "/app/static/media/pong.f4e7b066.png",
     "static/media/rush_battle.jpg": "/app/static/media/rush_battle.0ac0d1ab.jpg",
@@ -34,10 +35,10 @@
     "static/media/tower_defense.png": "/app/static/media/tower_defense.0399ee11.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.faa214fc.js",
-    "static/css/2.51591f8a.chunk.css",
-    "static/js/2.ac32d84f.chunk.js",
-    "static/css/main.be1ec52e.chunk.css",
-    "static/js/main.40b84373.chunk.js"
+    "static/js/runtime-main.9b05ec13.js",
+    "static/css/2.2277b44b.chunk.css",
+    "static/js/2.f09d257c.chunk.js",
+    "static/css/main.1a56744e.chunk.css",
+    "static/js/main.16acec79.chunk.js"
   ]
 }
