@@ -10,10 +10,13 @@ class App extends React.Component {
   render() {
     return (
 	<BrowserRouter basename="/app" >
-  <div className="App">
+  <div className="App" id="page-container">
           <Header />
+          <div id="content-wrap">
+
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
+          </div>
           <Footer />
       </div>
       	</BrowserRouter>

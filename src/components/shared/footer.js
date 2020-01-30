@@ -6,7 +6,7 @@ import github from '../../static/GitHub-Mark-Light-120px-plus.png';
 const Footer = (props) => {
 	const dimension = 30
 	return (
-		<footer>
+		<footer id="footer">
 			<Col sm="12" md={{ size: 6, offset: 3 }}>
 				<a href="https://www.linkedin.com/in/philippe-chadenier" target="_blank" className="gray hint--top" data-hint="LinkedIn" rel="noopener noreferrer">
 					<img alt="" src={linkedin} width={dimension} height={dimension} />

@@ -6,7 +6,7 @@ class Portfolio extends React.Component {
     componentDidMount() {
 		document.title = "Portfolio | Philippe Chadenier"
 	}
-	
+
     render() {
         const projects = [
             "rush_hover.jpg",
@@ -23,6 +23,7 @@ class Portfolio extends React.Component {
             "golf_3d.png",
             "sonic.png",
             "tower_defense.png",
+            "hotline_miami.png",
             "coop_cubes.png",
             "pong.png",
             "flappy_bird.png",
@@ -34,7 +35,7 @@ class Portfolio extends React.Component {
             "https://github.com/Medno/In-The-Shadows/raw/media/level_selection.png",
             "https://github.com/Medno/In-The-Shadows/raw/media/level.png"
         ]
-    
+
         const scop_links = [
             "https://github.com/Medno/Scop/raw/master/new_maya_demo.gif",
             "https://github.com/Medno/Scop/raw/master/lotus_normals.png"
@@ -59,7 +60,7 @@ class Portfolio extends React.Component {
                     </Tab>
                 </Tabs>
             </Container>
-        );    
+        );
     }
 }
 
