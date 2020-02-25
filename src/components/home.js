@@ -16,7 +16,7 @@ class Home extends React.Component {
 				<div style={{margin:'25px 40px'}}>
 					<h3>I'm a French student finishing his senior degree at <b>42 Paris</b>.</h3>
 					<h3>I have some skills in <b>Python</b>, <b>C</b>, <b>C#</b>, <b>Unity</b>, C++, Node.js, React.js.</h3>
-					<h3>Currently working on : <b>Gomoku</b>, a five in a row game, with an IA. Stack : Python and Unity</h3>
+					<h3>Currently working on : <b>Gomoku</b>, a five in a row game, with an AI. Stack : Python and Unity</h3>
 					<br />
 					<h6>Feel free to have a look at my <Link to='/portfolio'>portfolio</Link>. You can find a large part of my projects on GitHub.</h6>
 					<br />
