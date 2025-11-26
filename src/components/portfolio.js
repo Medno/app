@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Tab, Tabs } from 'react-bootstrap';
 import ListImages from './ListImages.js'
-
 class Portfolio extends React.Component {
     componentDidMount() {
 		document.title = "Portfolio | Philippe Chadenier"

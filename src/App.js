@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Header from './components/shared/header.js'
 import Footer from './components/shared/footer.js'
 import Home from './components/home.js'
+import Posts from './components/posts.js'
 import Portfolio from './components/portfolio.js'
 
 class App extends React.Component {
@@ -15,6 +16,7 @@ class App extends React.Component {
           <div id="content-wrap">
 
           <Route exact path="/" component={Home} />
+          <Route exact path="/posts" component={Posts} />
           <Route exact path="/portfolio" component={Portfolio} />
           </div>
           <Footer />
