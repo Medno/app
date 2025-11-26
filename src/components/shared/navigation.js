@@ -11,6 +11,7 @@ const Navigation = (props) => {
   			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav className="ml-auto navbar-inverse" navbar >
 					<NavLink to="/">Home</NavLink>
+					<NavLink to="/posts">Posts</NavLink>
 					<NavLink to="/portfolio">Portfolio</NavLink>
 				</Nav>
 			</Navbar.Collapse>
