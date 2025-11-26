@@ -8,7 +8,7 @@ const Footer = (props) => {
 	return (
 		<footer id="footer">
 			<Col sm="12" md={{ size: 6, offset: 3 }}>
-				<a href="https://www.linkedin.com/in/philippe-chadenier" target="_blank" className="gray hint--top" data-hint="LinkedIn" rel="noopener noreferrer">
+				<a href="https://www.linkedin.com/in/medno" target="_blank" className="gray hint--top" data-hint="LinkedIn" rel="noopener noreferrer">
 					<img alt="" src={linkedin} width={dimension} height={dimension} />
 				</a>
 				<a href="https://github.com/Medno" target="_blank" className="gray hint--top" data-hint="LinkedIn" rel="noopener noreferrer">
