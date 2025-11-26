@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import useEvent from 'react-use/lib/useEvent'
+import { useEvent } from 'react-use'
 import { Controlled as ControlledZoom } from 'react-medium-image-zoom'
 import { Image } from 'react-bootstrap';
 import 'react-medium-image-zoom/dist/styles.css'
