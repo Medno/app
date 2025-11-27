@@ -1,5 +1,4 @@
-import { Card, Image, Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Card, Row, Col } from 'react-bootstrap';
 
 function getFirstImageSrc(htmlString) {
   const parser = new DOMParser();

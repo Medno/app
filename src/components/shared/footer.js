@@ -16,7 +16,7 @@ const Footer = (props) => {
 				</a>
 			</Col>
 			<div>
-				© 2020 Philippe Chadenier
+				© 2025 Philippe Chadenier
 			</div>
 		</footer>
 	);

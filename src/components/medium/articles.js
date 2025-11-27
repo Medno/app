@@ -15,7 +15,7 @@ const MediumArticles = () => {
   return (
     <Row>
       {articles.map((article, index) => (
-           <Col key={index} lg="1" md="1000" className="mb-3">
+           <Col key={index}>
                <MediumCard article={article} />
            </Col>
       ))}
